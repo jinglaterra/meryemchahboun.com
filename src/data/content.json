@@ -1,0 +1,288 @@
+{
+  "en": {
+    "nav": {
+      "home": "Home",
+      "work": "Selected Work",
+      "services": "Services",
+      "about": "About",
+      "contact": "Contact"
+    },
+    "hero": {
+      "name": "Meryem Chahboun",
+      "title": "Architectural & Interior Designer",
+      "credential": "Master's Degree in Architecture",
+      "tagline": "Creating timeless spaces across Costa del Sol",
+      "cta_primary": "View Selected Work",
+      "cta_secondary": "Get in Touch"
+    },
+    "work": {
+      "title": "Selected Work",
+      "subtitle": "A curated collection of architectural and interior design projects",
+      "filter_all": "All Projects",
+      "filter_residential": "Residential",
+      "filter_commercial": "Commercial",
+      "filter_interior": "Interior Design",
+      "filter_architectural": "Architectural Design"
+    },
+    "services": {
+      "title": "Services",
+      "subtitle": "Comprehensive design solutions for residential and commercial spaces",
+      "architectural": {
+        "title": "Architectural Design",
+        "description": "From concept to completion, I create thoughtful architectural solutions that respond to context, climate, and client vision.",
+        "items": [
+          "Residential projects",
+          "Commercial spaces",
+          "Renovations & extensions",
+          "Feasibility studies"
+        ]
+      },
+      "interior": {
+        "title": "Interior Design",
+        "description": "Holistic interior design that balances aesthetics, functionality, and the unique character of each space.",
+        "items": [
+          "Full interior concepts",
+          "Space planning & layout",
+          "Material & finish selection",
+          "Custom furniture design"
+        ]
+      },
+      "consultation": {
+        "title": "Consultation Services",
+        "description": "Expert guidance for your design project, whether you need a second opinion or comprehensive project management.",
+        "items": [
+          "Design review & feedback",
+          "Project management",
+          "Remote collaboration",
+          "Technical documentation"
+        ]
+      },
+      "process_title": "Design Process",
+      "process_steps": [
+        {
+          "title": "Discovery",
+          "description": "Understanding your vision, needs, and site context"
+        },
+        {
+          "title": "Concept",
+          "description": "Developing initial design ideas and spatial solutions"
+        },
+        {
+          "title": "Development",
+          "description": "Refining details, materials, and technical specifications"
+        },
+        {
+          "title": "Delivery",
+          "description": "Final documentation and project realization support"
+        }
+      ],
+      "cta": "Discuss Your Project"
+    },
+    "about": {
+      "title": "About",
+      "intro": "I'm an architectural and interior designer with a Master's Degree in Architecture, specializing in creating spaces that blend Mediterranean warmth with contemporary clarity.",
+      "story": "Based in Costa del Sol, Spain, I work with residential and commercial clients who value thoughtful design that responds to place, light, and lifestyle. My approach combines architectural rigor with a sensitivity to materiality and human experience.",
+      "education_title": "Education & Credentials",
+      "education": "Master's Degree in Architecture",
+      "languages_title": "Languages",
+      "languages": "Arabic, French, English, Spanish",
+      "location_title": "Location",
+      "location": "Costa del Sol, Spain + Remote worldwide",
+      "philosophy_title": "Design Philosophy",
+      "philosophy": "I believe great design emerges from listening—to clients, to sites, to the subtle qualities of light and material. My work seeks to create spaces that feel both timeless and deeply rooted in their context.",
+      "cta": "Let's Connect"
+    },
+    "contact": {
+      "title": "Contact",
+      "subtitle": "Ready to start your project? Let's discuss how we can bring your vision to life.",
+      "form_title": "Send a Message",
+      "name_label": "Name",
+      "name_placeholder": "Your name",
+      "email_label": "Email",
+      "email_placeholder": "your@email.com",
+      "phone_label": "Phone (optional)",
+      "phone_placeholder": "+34 ...",
+      "project_type_label": "Project Type",
+      "project_type_placeholder": "Select project type",
+      "project_types": [
+        "Residential - New Build",
+        "Residential - Renovation",
+        "Commercial Space",
+        "Interior Design",
+        "Consultation",
+        "Other"
+      ],
+      "message_label": "Message",
+      "message_placeholder": "Tell me about your project...",
+      "language_label": "Preferred Language",
+      "submit": "Send Message",
+      "sending": "Sending...",
+      "success": "Thank you! I'll get back to you soon.",
+      "error": "Something went wrong. Please try WhatsApp or email directly.",
+      "direct_title": "Direct Contact",
+      "whatsapp": "WhatsApp",
+      "email": "Email",
+      "linkedin": "LinkedIn",
+      "location_title": "Location",
+      "location_text": "Based in Costa del Sol, Spain<br>Available for remote projects worldwide"
+    },
+    "footer": {
+      "tagline": "Architectural & Interior Designer",
+      "location": "Costa del Sol, Spain",
+      "links_title": "Quick Links",
+      "contact_title": "Contact",
+      "follow_title": "Follow",
+      "copyright": "© 2026 Meryem Chahboun. All rights reserved.",
+      "designed": "Designed with care for the Mediterranean"
+    },
+    "cta_sections": {
+      "work_cta": "Interested in working together?",
+      "work_cta_button": "Start a Conversation",
+      "general_cta": "Ready to start your project?",
+      "general_cta_subtitle": "Let's discuss how thoughtful design can transform your space"
+    }
+  },
+  "es": {
+    "nav": {
+      "home": "Inicio",
+      "work": "Proyectos",
+      "services": "Servicios",
+      "about": "Sobre Mí",
+      "contact": "Contacto"
+    },
+    "hero": {
+      "name": "Meryem Chahboun",
+      "title": "Diseñadora Arquitectónica y de Interiores",
+      "credential": "Máster en Arquitectura",
+      "tagline": "Creando espacios atemporales en Costa del Sol",
+      "cta_primary": "Ver Proyectos",
+      "cta_secondary": "Contactar"
+    },
+    "work": {
+      "title": "Proyectos Seleccionados",
+      "subtitle": "Una colección curada de proyectos arquitectónicos y de diseño de interiores",
+      "filter_all": "Todos los Proyectos",
+      "filter_residential": "Residencial",
+      "filter_commercial": "Comercial",
+      "filter_interior": "Diseño de Interiores",
+      "filter_architectural": "Diseño Arquitectónico"
+    },
+    "services": {
+      "title": "Servicios",
+      "subtitle": "Soluciones de diseño integrales para espacios residenciales y comerciales",
+      "architectural": {
+        "title": "Diseño Arquitectónico",
+        "description": "Del concepto a la realización, creo soluciones arquitectónicas reflexivas que responden al contexto, clima y visión del cliente.",
+        "items": [
+          "Proyectos residenciales",
+          "Espacios comerciales",
+          "Reformas y ampliaciones",
+          "Estudios de viabilidad"
+        ]
+      },
+      "interior": {
+        "title": "Diseño de Interiores",
+        "description": "Diseño de interiores holístico que equilibra estética, funcionalidad y el carácter único de cada espacio.",
+        "items": [
+          "Conceptos integrales de interiores",
+          "Planificación espacial",
+          "Selección de materiales y acabados",
+          "Diseño de mobiliario personalizado"
+        ]
+      },
+      "consultation": {
+        "title": "Servicios de Consultoría",
+        "description": "Asesoramiento experto para tu proyecto de diseño, ya sea que necesites una segunda opinión o gestión integral del proyecto.",
+        "items": [
+          "Revisión y asesoramiento de diseño",
+          "Gestión de proyectos",
+          "Colaboración remota",
+          "Documentación técnica"
+        ]
+      },
+      "process_title": "Proceso de Diseño",
+      "process_steps": [
+        {
+          "title": "Descubrimiento",
+          "description": "Comprender tu visión, necesidades y contexto del sitio"
+        },
+        {
+          "title": "Concepto",
+          "description": "Desarrollar ideas de diseño iniciales y soluciones espaciales"
+        },
+        {
+          "title": "Desarrollo",
+          "description": "Refinar detalles, materiales y especificaciones técnicas"
+        },
+        {
+          "title": "Entrega",
+          "description": "Documentación final y apoyo en la realización del proyecto"
+        }
+      ],
+      "cta": "Discute Tu Proyecto"
+    },
+    "about": {
+      "title": "Sobre Mí",
+      "intro": "Soy diseñadora arquitectónica y de interiores con un Máster en Arquitectura, especializada en crear espacios que combinan la calidez mediterránea con la claridad contemporánea.",
+      "story": "Con base en Costa del Sol, España, trabajo con clientes residenciales y comerciales que valoran el diseño reflexivo que responde al lugar, la luz y el estilo de vida. Mi enfoque combina rigor arquitectónico con sensibilidad hacia la materialidad y la experiencia humana.",
+      "education_title": "Formación y Credenciales",
+      "education": "Máster en Arquitectura",
+      "languages_title": "Idiomas",
+      "languages": "Árabe, Francés, Inglés, Español",
+      "location_title": "Ubicación",
+      "location": "Costa del Sol, España + Remoto en todo el mundo",
+      "philosophy_title": "Filosofía de Diseño",
+      "philosophy": "Creo que el gran diseño surge de escuchar: a los clientes, a los sitios, a las cualidades sutiles de la luz y el material. Mi trabajo busca crear espacios que se sientan atemporales y profundamente arraigados en su contexto.",
+      "cta": "Conectemos"
+    },
+    "contact": {
+      "title": "Contacto",
+      "subtitle": "¿Lista para comenzar tu proyecto? Hablemos de cómo podemos dar vida a tu visión.",
+      "form_title": "Enviar un Mensaje",
+      "name_label": "Nombre",
+      "name_placeholder": "Tu nombre",
+      "email_label": "Email",
+      "email_placeholder": "tu@email.com",
+      "phone_label": "Teléfono (opcional)",
+      "phone_placeholder": "+34 ...",
+      "project_type_label": "Tipo de Proyecto",
+      "project_type_placeholder": "Selecciona tipo de proyecto",
+      "project_types": [
+        "Residencial - Nueva Construcción",
+        "Residencial - Reforma",
+        "Espacio Comercial",
+        "Diseño de Interiores",
+        "Consultoría",
+        "Otro"
+      ],
+      "message_label": "Mensaje",
+      "message_placeholder": "Cuéntame sobre tu proyecto...",
+      "language_label": "Idioma Preferido",
+      "submit": "Enviar Mensaje",
+      "sending": "Enviando...",
+      "success": "¡Gracias! Te responderé pronto.",
+      "error": "Algo salió mal. Por favor, intenta por WhatsApp o email directamente.",
+      "direct_title": "Contacto Directo",
+      "whatsapp": "WhatsApp",
+      "email": "Email",
+      "linkedin": "LinkedIn",
+      "location_title": "Ubicación",
+      "location_text": "Con base en Costa del Sol, España<br>Disponible para proyectos remotos en todo el mundo"
+    },
+    "footer": {
+      "tagline": "Diseñadora Arquitectónica y de Interiores",
+      "location": "Costa del Sol, España",
+      "links_title": "Enlaces Rápidos",
+      "contact_title": "Contacto",
+      "follow_title": "Sígueme",
+      "copyright": "© 2026 Meryem Chahboun. Todos los derechos reservados.",
+      "designed": "Diseñado con cuidado para el Mediterráneo"
+    },
+    "cta_sections": {
+      "work_cta": "¿Interesada en trabajar juntos?",
+      "work_cta_button": "Iniciar una Conversación",
+      "general_cta": "¿Lista para comenzar tu proyecto?",
+      "general_cta_subtitle": "Hablemos de cómo el diseño reflexivo puede transformar tu espacio"
+    }
+  }
+}

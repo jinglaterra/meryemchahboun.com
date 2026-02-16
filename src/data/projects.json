@@ -1,0 +1,230 @@
+{
+    "projects": [
+        {
+            "id": "villa-marbella",
+            "title": {
+                "en": "Contemporary Villa Marbella",
+                "es": "Villa Contemporánea Marbella"
+            },
+            "type": {
+                "en": "Residential - New Build",
+                "es": "Residencial - Nueva Construcción"
+            },
+            "category": [
+                "residential",
+                "architectural"
+            ],
+            "location": "Marbella, Spain",
+            "year": "2025",
+            "description": {
+                "en": "A 350m² contemporary villa designed to embrace Mediterranean light and coastal views. The project features clean architectural lines, natural materials, and seamless indoor-outdoor living spaces.",
+                "es": "Una villa contemporánea de 350m² diseñada para abrazar la luz mediterránea y las vistas costeras. El proyecto presenta líneas arquitectónicas limpias, materiales naturales y espacios de vida interior-exterior sin interrupciones."
+            },
+            "services": {
+                "en": [
+                    "Architectural Design",
+                    "Interior Design",
+                    "Landscape Coordination"
+                ],
+                "es": [
+                    "Diseño Arquitectónico",
+                    "Diseño de Interiores",
+                    "Coordinación de Paisajismo"
+                ]
+            },
+            "images": [
+                "/public/images/projects/villa-marbella-1.jpg",
+                "/public/images/projects/villa-marbella-2.jpg",
+                "/public/images/projects/villa-marbella-3.jpg"
+            ],
+            "featured": true
+        },
+        {
+            "id": "apartment-renovation-malaga",
+            "title": {
+                "en": "Historic Apartment Renovation",
+                "es": "Renovación de Apartamento Histórico"
+            },
+            "type": {
+                "en": "Residential - Renovation",
+                "es": "Residencial - Reforma"
+            },
+            "category": [
+                "residential",
+                "interior"
+            ],
+            "location": "Málaga, Spain",
+            "year": "2024",
+            "description": {
+                "en": "Complete renovation of a 120m² apartment in Málaga's historic center. The design preserves original architectural elements while introducing modern functionality and natural light.",
+                "es": "Renovación completa de un apartamento de 120m² en el centro histórico de Málaga. El diseño preserva elementos arquitectónicos originales mientras introduce funcionalidad moderna y luz natural."
+            },
+            "services": {
+                "en": [
+                    "Interior Design",
+                    "Space Planning",
+                    "Custom Furniture"
+                ],
+                "es": [
+                    "Diseño de Interiores",
+                    "Planificación Espacial",
+                    "Mobiliario Personalizado"
+                ]
+            },
+            "images": [
+                "/public/images/projects/apartment-malaga-1.jpg",
+                "/public/images/projects/apartment-malaga-2.jpg"
+            ],
+            "featured": true
+        },
+        {
+            "id": "boutique-hotel-estepona",
+            "title": {
+                "en": "Boutique Hotel Estepona",
+                "es": "Hotel Boutique Estepona"
+            },
+            "type": {
+                "en": "Commercial",
+                "es": "Comercial"
+            },
+            "category": [
+                "commercial",
+                "interior"
+            ],
+            "location": "Estepona, Spain",
+            "year": "2024",
+            "description": {
+                "en": "Interior design for a 12-room boutique hotel celebrating Andalusian craft and contemporary comfort. Each space balances local character with refined hospitality design.",
+                "es": "Diseño de interiores para un hotel boutique de 12 habitaciones que celebra la artesanía andaluza y el confort contemporáneo. Cada espacio equilibra el carácter local con un diseño de hospitalidad refinado."
+            },
+            "services": {
+                "en": [
+                    "Interior Design",
+                    "FF&E Selection",
+                    "Brand Integration"
+                ],
+                "es": [
+                    "Diseño de Interiores",
+                    "Selección de Mobiliario",
+                    "Integración de Marca"
+                ]
+            },
+            "images": [
+                "/public/images/projects/hotel-estepona-1.jpg",
+                "/public/images/projects/hotel-estepona-2.jpg",
+                "/public/images/projects/hotel-estepona-3.jpg"
+            ],
+            "featured": true
+        },
+        {
+            "id": "coastal-residence",
+            "title": {
+                "en": "Coastal Residence",
+                "es": "Residencia Costera"
+            },
+            "type": {
+                "en": "Residential - New Build",
+                "es": "Residencial - Nueva Construcción"
+            },
+            "category": [
+                "residential",
+                "architectural"
+            ],
+            "location": "Costa del Sol, Spain",
+            "year": "2023",
+            "description": {
+                "en": "A minimalist coastal residence designed to frame sea views and natural ventilation. The project emphasizes sustainable materials and passive climate strategies.",
+                "es": "Una residencia costera minimalista diseñada para enmarcar vistas al mar y ventilación natural. El proyecto enfatiza materiales sostenibles y estrategias climáticas pasivas."
+            },
+            "services": {
+                "en": [
+                    "Architectural Design",
+                    "Sustainability Consulting"
+                ],
+                "es": [
+                    "Diseño Arquitectónico",
+                    "Consultoría de Sostenibilidad"
+                ]
+            },
+            "images": [
+                "/public/images/projects/coastal-residence-1.jpg",
+                "/public/images/projects/coastal-residence-2.jpg"
+            ],
+            "featured": false
+        },
+        {
+            "id": "restaurant-interior",
+            "title": {
+                "en": "Mediterranean Restaurant",
+                "es": "Restaurante Mediterráneo"
+            },
+            "type": {
+                "en": "Commercial",
+                "es": "Comercial"
+            },
+            "category": [
+                "commercial",
+                "interior"
+            ],
+            "location": "Marbella, Spain",
+            "year": "2023",
+            "description": {
+                "en": "Interior design for a 80-seat Mediterranean restaurant. Warm materials, custom lighting, and flexible seating create an inviting atmosphere for dining.",
+                "es": "Diseño de interiores para un restaurante mediterráneo de 80 plazas. Materiales cálidos, iluminación personalizada y asientos flexibles crean una atmósfera acogedora para comer."
+            },
+            "services": {
+                "en": [
+                    "Interior Design",
+                    "Lighting Design",
+                    "Material Selection"
+                ],
+                "es": [
+                    "Diseño de Interiores",
+                    "Diseño de Iluminación",
+                    "Selección de Materiales"
+                ]
+            },
+            "images": [
+                "/public/images/projects/restaurant-1.jpg",
+                "/public/images/projects/restaurant-2.jpg"
+            ],
+            "featured": false
+        },
+        {
+            "id": "townhouse-extension",
+            "title": {
+                "en": "Townhouse Extension",
+                "es": "Ampliación de Casa Adosada"
+            },
+            "type": {
+                "en": "Residential - Renovation",
+                "es": "Residencial - Reforma"
+            },
+            "category": [
+                "residential",
+                "architectural"
+            ],
+            "location": "Fuengirola, Spain",
+            "year": "2023",
+            "description": {
+                "en": "A thoughtful extension adding 60m² to an existing townhouse. The design creates a light-filled living space with direct garden access and improved circulation.",
+                "es": "Una ampliación reflexiva que añade 60m² a una casa adosada existente. El diseño crea un espacio de vida lleno de luz con acceso directo al jardín y circulación mejorada."
+            },
+            "services": {
+                "en": [
+                    "Architectural Design",
+                    "Planning Coordination"
+                ],
+                "es": [
+                    "Diseño Arquitectónico",
+                    "Coordinación de Planificación"
+                ]
+            },
+            "images": [
+                "/public/images/projects/townhouse-1.jpg",
+                "/public/images/projects/townhouse-2.jpg"
+            ],
+            "featured": false
+        }
+    ]
+}

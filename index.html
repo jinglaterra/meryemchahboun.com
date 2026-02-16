@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Meryem Chahboun - Architectural & Interior Designer based in Costa del Sol, Spain. Creating timeless residential and commercial spaces with Mediterranean warmth and contemporary clarity.">
+  <meta name="keywords" content="architectural designer, interior design, Costa del Sol, Marbella, Spain, residential design, commercial design, architecture portfolio">
+  <meta name="author" content="Meryem Chahboun">
+  
+  <!-- Open Graph / Social Media -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Meryem Chahboun | Architectural & Interior Designer">
+  <meta property="og:description" content="Creating timeless spaces across Costa del Sol">
+  <meta property="og:url" content="https://meryemchahboun.com">
+  
+  <!-- Multilingual -->
+  <link rel="alternate" hreflang="en" href="https://meryemchahboun.com">
+  <link rel="alternate" hreflang="es" href="https://meryemchahboun.com">
+  
+  <title>Meryem Chahboun | Architectural & Interior Designer | Costa del Sol</title>
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+  
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="/styles/design-system.css">
+  <link rel="stylesheet" href="/styles/main.css">
+  <link rel="stylesheet" href="/styles/components.css">
+  <link rel="stylesheet" href="/styles/pages.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="nav">
+    <div class="container nav__container">
+      <a href="#home" class="nav__logo">MC</a>
+      
+      <ul class="nav__menu">
+        <li><a href="#home" class="nav__link active" data-i18n="nav.home">Home</a></li>
+        <li><a href="#work" class="nav__link" data-i18n="nav.work">Selected Work</a></li>
+        <li><a href="#services" class="nav__link" data-i18n="nav.services">Services</a></li>
+        <li><a href="#about" class="nav__link" data-i18n="nav.about">About</a></li>
+        <li><a href="#contact" class="nav__link" data-i18n="nav.contact">Contact</a></li>
+      </ul>
+      
+      <div class="nav__actions">
+        <div class="lang-switcher">
+          <!-- Language switcher buttons will be inserted by JS -->
+        </div>
+        
+        <a href="https://linkedin.com/in/meryemchahboun" target="_blank" rel="noopener" class="footer__social-link" aria-label="LinkedIn">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+          </svg>
+        </a>
+        
+        <button class="nav__toggle" aria-label="Toggle menu">
+          <span class="nav__toggle-line"></span>
+          <span class="nav__toggle-line"></span>
+          <span class="nav__toggle-line"></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div class="nav__mobile">
+    <ul class="nav__mobile-list">
+      <li><a href="#home" class="nav__mobile-link" data-i18n="nav.home">Home</a></li>
+      <li><a href="#work" class="nav__mobile-link" data-i18n="nav.work">Selected Work</a></li>
+      <li><a href="#services" class="nav__mobile-link" data-i18n="nav.services">Services</a></li>
+      <li><a href="#about" class="nav__mobile-link" data-i18n="nav.about">About</a></li>
+      <li><a href="#contact" class="nav__mobile-link" data-i18n="nav.contact">Contact</a></li>
+    </ul>
+  </div>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero section--hero">
+    <div class="hero__background"></div>
+    <div class="hero__content">
+      <p class="hero__subtitle" data-i18n="hero.credential">Master's Degree in Architecture</p>
+      <h1 class="hero__title" data-i18n="hero.name">Meryem Chahboun</h1>
+      <p class="hero__tagline" data-i18n="hero.tagline">Creating timeless spaces across Costa del Sol</p>
+      <div class="hero__cta">
+        <a href="#work" class="btn btn--primary btn--large" data-i18n="hero.cta_primary">View Selected Work</a>
+        <a href="#contact" class="btn btn--secondary btn--large" data-i18n="hero.cta_secondary">Get in Touch</a>
+      </div>
+    </div>
+    <div class="hero__scroll">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <polyline points="6 9 12 15 18 9"></polyline>
+      </svg>
+    </div>
+  </section>
+
+  <!-- Featured Projects Section -->
+  <section id="work" class="section">
+    <div class="container">
+      <div class="text-center mb-xl">
+        <h2 data-i18n="work.title">Selected Work</h2>
+        <p class="text-secondary" data-i18n="work.subtitle">A curated collection of architectural and interior design projects</p>
+      </div>
+      
+      <div class="projects-grid" id="projectsGrid">
+        <!-- Projects will be loaded by JavaScript -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="section section--accent">
+    <div class="container">
+      <div class="text-center mb-xl">
+        <h2 data-i18n="services.title">Services</h2>
+        <p class="text-secondary" data-i18n="services.subtitle">Comprehensive design solutions for residential and commercial spaces</p>
+      </div>
+      
+      <div class="grid grid--3">
+        <div class="service-card">
+          <div class="service-card__icon">📐</div>
+          <h3 class="service-card__title" data-i18n="services.architectural.title">Architectural Design</h3>
+          <p class="service-card__description" data-i18n="services.architectural.description">From concept to completion, I create thoughtful architectural solutions that respond to context, climate, and client vision.</p>
+          <ul class="service-card__list">
+            <li class="service-card__list-item">Residential projects</li>
+            <li class="service-card__list-item">Commercial spaces</li>
+            <li class="service-card__list-item">Renovations & extensions</li>
+            <li class="service-card__list-item">Feasibility studies</li>
+          </ul>
+        </div>
+        
+        <div class="service-card">
+          <div class="service-card__icon">🏠</div>
+          <h3 class="service-card__title" data-i18n="services.interior.title">Interior Design</h3>
+          <p class="service-card__description" data-i18n="services.interior.description">Holistic interior design that balances aesthetics, functionality, and the unique character of each space.</p>
+          <ul class="service-card__list">
+            <li class="service-card__list-item">Full interior concepts</li>
+            <li class="service-card__list-item">Space planning & layout</li>
+            <li class="service-card__list-item">Material & finish selection</li>
+            <li class="service-card__list-item">Custom furniture design</li>
+          </ul>
+        </div>
+        
+        <div class="service-card">
+          <div class="service-card__icon">💡</div>
+          <h3 class="service-card__title" data-i18n="services.consultation.title">Consultation Services</h3>
+          <p class="service-card__description" data-i18n="services.consultation.description">Expert guidance for your design project, whether you need a second opinion or comprehensive project management.</p>
+          <ul class="service-card__list">
+            <li class="service-card__list-item">Design review & feedback</li>
+            <li class="service-card__list-item">Project management</li>
+            <li class="service-card__list-item">Remote collaboration</li>
+            <li class="service-card__list-item">Technical documentation</li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="text-center mt-xl">
+        <a href="#contact" class="btn btn--primary btn--large" data-i18n="services.cta">Discuss Your Project</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="section">
+    <div class="container">
+      <div class="about-content">
+        <div>
+          <div class="about__image"></div>
+        </div>
+        
+        <div class="about__text">
+          <h2 data-i18n="about.title">About</h2>
+          <p data-i18n="about.intro">I'm an architectural and interior designer with a Master's Degree in Architecture, specializing in creating spaces that blend Mediterranean warmth with contemporary clarity.</p>
+          <p data-i18n="about.story">Based in Costa del Sol, Spain, I work with residential and commercial clients who value thoughtful design that responds to place, light, and lifestyle. My approach combines architectural rigor with a sensitivity to materiality and human experience.</p>
+          
+          <div class="about__credentials">
+            <div class="credential-item">
+              <div class="credential-item__label" data-i18n="about.education_title">Education</div>
+              <div class="credential-item__value" data-i18n="about.education">Master's Degree in Architecture</div>
+            </div>
+            
+            <div class="credential-item">
+              <div class="credential-item__label" data-i18n="about.location_title">Location</div>
+              <div class="credential-item__value" data-i18n="about.location">Costa del Sol, Spain + Remote</div>
+            </div>
+            
+            <div class="credential-item">
+              <div class="credential-item__label" data-i18n="about.languages_title">Languages</div>
+              <div class="credential-item__value" data-i18n="about.languages">Arabic, French, English, Spanish</div>
+            </div>
+          </div>
+          
+          <h3 data-i18n="about.philosophy_title">Design Philosophy</h3>
+          <p data-i18n="about.philosophy">I believe great design emerges from listening—to clients, to sites, to the subtle qualities of light and material. My work seeks to create spaces that feel both timeless and deeply rooted in their context.</p>
+          
+          <div class="mt-lg">
+            <a href="#contact" class="btn btn--accent btn--large" data-i18n="about.cta">Let's Connect</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="section">
+    <div class="container">
+      <div class="cta-section">
+        <h2 class="cta-section__title" data-i18n="cta_sections.general_cta">Ready to start your project?</h2>
+        <p class="cta-section__subtitle" data-i18n="cta_sections.general_cta_subtitle">Let's discuss how thoughtful design can transform your space</p>
+        <div class="flex-center gap-sm">
+          <a href="#contact" class="btn btn--primary btn--large" data-i18n="cta_sections.work_cta_button">Start a Conversation</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section section--accent">
+    <div class="container">
+      <div class="text-center mb-xl">
+        <h2 data-i18n="contact.title">Contact</h2>
+        <p class="text-secondary" data-i18n="contact.subtitle">Ready to start your project? Let's discuss how we can bring your vision to life.</p>
+      </div>
+      
+      <div class="contact-content">
+        <!-- Contact Form -->
+        <div>
+          <h3 class="mb-md" data-i18n="contact.form_title">Send a Message</h3>
+          <form id="contactForm" class="form">
+            <div class="form-group">
+              <label for="name" class="form-label" data-i18n="contact.name_label">Name</label>
+              <input 
+                type="text" 
+                id="name" 
+                name="name" 
+                class="form-input" 
+                required
+                data-i18n="contact.name_placeholder"
+                placeholder="Your name"
+              >
+            </div>
+            
+            <div class="form-group">
+              <label for="email" class="form-label" data-i18n="contact.email_label">Email</label>
+              <input 
+                type="email" 
+                id="email" 
+                name="email" 
+                class="form-input" 
+                required
+                data-i18n="contact.email_placeholder"
+                placeholder="your@email.com"
+              >
+            </div>
+            
+            <div class="form-group">
+              <label for="phone" class="form-label" data-i18n="contact.phone_label">Phone (optional)</label>
+              <input 
+                type="tel" 
+                id="phone" 
+                name="phone" 
+                class="form-input"
+                data-i18n="contact.phone_placeholder"
+                placeholder="+34 ..."
+              >
+            </div>
+            
+            <div class="form-group">
+              <label for="projectType" class="form-label" data-i18n="contact.project_type_label">Project Type</label>
+              <select id="projectType" name="projectType" class="form-select" required>
+                <option value="">Select project type</option>
+                <option value="residential-new">Residential - New Build</option>
+                <option value="residential-renovation">Residential - Renovation</option>
+                <option value="commercial">Commercial Space</option>
+                <option value="interior">Interior Design</option>
+                <option value="consultation">Consultation</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+            
+            <div class="form-group">
+              <label for="message" class="form-label" data-i18n="contact.message_label">Message</label>
+              <textarea 
+                id="message" 
+                name="message" 
+                class="form-textarea" 
+                required
+                data-i18n="contact.message_placeholder"
+                placeholder="Tell me about your project..."
+              ></textarea>
+            </div>
+            
+            <button type="submit" class="btn btn--primary" data-i18n="contact.submit" data-sending="Sending...">Send Message</button>
+          </form>
+        </div>
+        
+        <!-- Direct Contact -->
+        <div>
+          <h3 class="mb-md" data-i18n="contact.direct_title">Direct Contact</h3>
+          <div class="contact-direct">
+            <a href="#" class="contact-method" data-whatsapp>
+              <div class="contact-method__icon">📱</div>
+              <div>
+                <div class="contact-method__label" data-i18n="contact.whatsapp">WhatsApp</div>
+                <div class="contact-method__value">Click to chat</div>
+              </div>
+            </a>
+            
+            <a href="mailto:contact@meryemchahboun.com" class="contact-method">
+              <div class="contact-method__icon">✉️</div>
+              <div>
+                <div class="contact-method__label" data-i18n="contact.email">Email</div>
+                <div class="contact-method__value">contact@meryemchahboun.com</div>
+              </div>
+            </a>
+            
+            <a href="https://linkedin.com/in/meryemchahboun" target="_blank" rel="noopener" class="contact-method">
+              <div class="contact-method__icon">💼</div>
+              <div>
+                <div class="contact-method__label" data-i18n="contact.linkedin">LinkedIn</div>
+                <div class="contact-method__value">Connect professionally</div>
+              </div>
+            </a>
+          </div>
+          
+          <div class="mt-lg">
+            <h4 class="mb-sm" data-i18n="contact.location_title">Location</h4>
+            <p class="text-secondary" data-i18n="contact.location_text">Based in Costa del Sol, Spain<br>Available for remote projects worldwide</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__content">
+        <div>
+          <h3 class="footer__section-title">Meryem Chahboun</h3>
+          <p data-i18n="footer.tagline">Architectural & Interior Designer</p>
+          <p data-i18n="footer.location">Costa del Sol, Spain</p>
+        </div>
+        
+        <div>
+          <h4 class="footer__section-title" data-i18n="footer.links_title">Quick Links</h4>
+          <a href="#work" class="footer__link" data-i18n="nav.work">Selected Work</a>
+          <a href="#services" class="footer__link" data-i18n="nav.services">Services</a>
+          <a href="#about" class="footer__link" data-i18n="nav.about">About</a>
+          <a href="#contact" class="footer__link" data-i18n="nav.contact">Contact</a>
+        </div>
+        
+        <div>
+          <h4 class="footer__section-title" data-i18n="footer.contact_title">Contact</h4>
+          <a href="mailto:contact@meryemchahboun.com" class="footer__link">contact@meryemchahboun.com</a>
+          <div class="footer__social">
+            <a href="https://linkedin.com/in/meryemchahboun" target="_blank" rel="noopener" class="footer__social-link" aria-label="LinkedIn">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="footer__bottom">
+        <p data-i18n="footer.copyright">© 2026 Meryem Chahboun. All rights reserved.</p>
+        <p data-i18n="footer.designed">Designed with care for the Mediterranean</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="/src/components/language-switcher.js"></script>
+  <script src="/src/components/navigation.js"></script>
+  <script src="/src/components/project-modal.js"></script>
+  <script src="/src/components/contact-form.js"></script>
+  <script src="/src/pages/home.js"></script>
+</body>
+</html>

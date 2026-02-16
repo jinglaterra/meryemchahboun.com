@@ -1,0 +1,160 @@
+/* ============================================
+   DESIGN SYSTEM - MERYEM CHAHBOUN PORTFOLIO
+   Mediterranean Modern Architecture Portfolio
+   ============================================ */
+
+:root {
+  /* ==================
+     COLOR PALETTE
+     Mediterranean Modern - Warm, Natural, Refined
+     ================== */
+  
+  /* Primary Colors */
+  --color-sand: #E8DCC8;
+  --color-terracotta: #C9A88A;
+  --color-stone: #8B7E74;
+  
+  /* Secondary Colors */
+  --color-white: #FEFDFB;
+  --color-charcoal: #2C2825;
+  --color-sage: #A8B5A0;
+  
+  /* Functional Colors */
+  --color-hover: #D4C4B0;
+  --color-border: #E0D5C7;
+  --color-overlay: rgba(44, 40, 37, 0.7);
+  --color-overlay-light: rgba(232, 220, 200, 0.95);
+  
+  /* Semantic Colors */
+  --color-background: var(--color-white);
+  --color-text-primary: var(--color-charcoal);
+  --color-text-secondary: var(--color-stone);
+  --color-accent: var(--color-terracotta);
+  --color-success: #7A9B76;
+  --color-error: #B8766E;
+  
+  /* ==================
+     TYPOGRAPHY
+     Cormorant Garamond (Headings) + Inter (Body)
+     ================== */
+  
+  /* Font Families */
+  --font-heading: 'Cormorant Garamond', Georgia, serif;
+  --font-body: 'Inter', system-ui, -apple-system, sans-serif;
+  
+  /* Font Weights */
+  --weight-light: 300;
+  --weight-regular: 400;
+  --weight-medium: 500;
+  --weight-semibold: 600;
+  
+  /* Font Sizes - Fluid Typography */
+  --text-xs: 0.75rem;        /* 12px */
+  --text-sm: 0.875rem;       /* 14px */
+  --text-base: clamp(1rem, 2vw, 1.125rem);           /* 16-18px */
+  --text-lg: clamp(1.125rem, 2.5vw, 1.25rem);        /* 18-20px */
+  --text-xl: clamp(1.25rem, 3vw, 1.5rem);            /* 20-24px */
+  --text-2xl: clamp(1.5rem, 3vw, 2rem);              /* 24-32px */
+  --text-3xl: clamp(2rem, 4vw, 3rem);                /* 32-48px */
+  --text-4xl: clamp(2.5rem, 5vw, 4rem);              /* 40-64px */
+  
+  /* Line Heights */
+  --leading-tight: 1.2;
+  --leading-normal: 1.5;
+  --leading-relaxed: 1.75;
+  
+  /* Letter Spacing */
+  --tracking-tight: -0.02em;
+  --tracking-normal: 0;
+  --tracking-wide: 0.05em;
+  --tracking-wider: 0.1em;
+  
+  /* ==================
+     SPACING SCALE
+     Based on 8px grid system
+     ================== */
+  
+  --space-xs: 0.5rem;    /* 8px */
+  --space-sm: 1rem;      /* 16px */
+  --space-md: 2rem;      /* 32px */
+  --space-lg: 4rem;      /* 64px */
+  --space-xl: 6rem;      /* 96px */
+  --space-2xl: 8rem;     /* 128px */
+  
+  /* ==================
+     LAYOUT
+     ================== */
+  
+  --container-max: 1280px;
+  --container-padding: var(--space-sm);
+  --section-padding-y: var(--space-lg);
+  --grid-gap: var(--space-md);
+  
+  /* ==================
+     BORDERS & RADIUS
+     ================== */
+  
+  --border-width: 1px;
+  --border-width-thick: 2px;
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 16px;
+  --radius-full: 9999px;
+  
+  /* ==================
+     SHADOWS
+     Subtle, architectural shadows
+     ================== */
+  
+  --shadow-sm: 0 1px 3px rgba(44, 40, 37, 0.08);
+  --shadow-md: 0 4px 12px rgba(44, 40, 37, 0.1);
+  --shadow-lg: 0 8px 24px rgba(44, 40, 37, 0.12);
+  --shadow-xl: 0 16px 48px rgba(44, 40, 37, 0.15);
+  
+  /* ==================
+     TRANSITIONS
+     ================== */
+  
+  --transition-fast: 150ms ease-in-out;
+  --transition-base: 250ms ease-in-out;
+  --transition-slow: 400ms ease-in-out;
+  
+  /* ==================
+     Z-INDEX SCALE
+     ================== */
+  
+  --z-base: 1;
+  --z-dropdown: 100;
+  --z-sticky: 200;
+  --z-overlay: 300;
+  --z-modal: 400;
+  --z-toast: 500;
+  
+  /* ==================
+     BREAKPOINTS
+     Mobile-first approach
+     ================== */
+  
+  --breakpoint-sm: 640px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 1024px;
+  --breakpoint-xl: 1280px;
+}
+
+/* ==================
+   RESPONSIVE SPACING ADJUSTMENTS
+   ================== */
+
+@media (min-width: 768px) {
+  :root {
+    --container-padding: var(--space-md);
+    --section-padding-y: var(--space-xl);
+  }
+}
+
+@media (min-width: 1024px) {
+  :root {
+    --container-padding: var(--space-lg);
+    --section-padding-y: var(--space-2xl);
+  }
+}
